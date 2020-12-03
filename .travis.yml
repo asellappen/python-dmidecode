@@ -1,6 +1,8 @@
 language: c
 sudo: true
-
+arch:
+  - amd64
+  - ppc64le
 env:
   global:
     - CODECOV_TOKEN=4792f32d-1685-4e2d-8cc4-b82e9578a605
